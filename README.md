@@ -9,7 +9,7 @@
 https://github.com/taeyzzz/react-xss/blob/master/src/components/ChatArea/index.jsx#L16
 
 # Becareful
-## Aware input from user href
+## Aware input from user a.href
 ```javascript
 const userWebsite = "javascript:alert('Hacked!');";
 
