@@ -1,0 +1,29 @@
+.chat-area-container{
+  width: 100%;
+  padding: 10px 20px;
+  border-right: 1px solid #ddd;
+  background-image: url('../../images/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .message-box-container{
+    margin-bottom: 10px;
+    .message-container{
+      display: flex;      
+      .message{
+        padding: 6px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+        background: #00d81b;
+      }
+    }
+    .timestamp{
+      color: #5f5f5fde;
+      font-style: italic;
+      font-size: .8em;
+    }        
+  }
+}
